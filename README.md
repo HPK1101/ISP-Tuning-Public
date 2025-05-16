@@ -30,35 +30,8 @@ Created the ISP-Tuning repository for:
 ### working with .DNG files
 Key Structure of a .DNG File (TIFF-based structure)
 
-├── TIFF Header
+![image](https://github.com/user-attachments/assets/91fe5b74-1350-41f6-a3ad-6540325df52d)
 
-├── IFD0 (Main Image File Directory)
-
-│     ├── Camera model, lens, ISO, etc.
-
-│     ├── Offsets to image data (RAW)
-
-│     └── Offset to EXIF SubIFD
-
-├── EXIF SubIFD (Camera metadata)
-
-│      ├── Exposure time
-
-│      ├── ISO, aperture
-
-│      └── DateTime, GPS, etc.
-
-├── MakerNotes (Manufacturer-specific metadata)
-
-├── ColorMatrix1 / ColorMatrix2 (for demosaicing)
-
-├── CFA Pattern (Bayer layout info)
-
-├── Raw image data (1 channel, 12/14-bit per pixel)
-
-├── Thumbnail image (optional JPEG)
-
-└── XMP metadata (optional, editable info like Lightroom edits)
 
 TIFF --> Header	Describes byte order, version
 IFD0 --> Basic info: width, height, color layout
