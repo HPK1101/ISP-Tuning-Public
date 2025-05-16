@@ -1,12 +1,12 @@
 # Ignore RAW image files and large datasets
-datasets/
+raw-Data/
 *.dng
 *.nef
 *.raw
 *.zip
 
 # Ignore output images 
-results/*
+ISP_Output/*
 *.png
 *.jpg
 *.npy
