@@ -24,8 +24,13 @@ Created the ISP-Tuning repository for:
 - For the development process, I use the local folder on Windows to keep the raw files. Installing the GitHub Desktop application seems the easiest way I found.
 - The script development is on Colab and online, then the files will be downloaded locally and pushed to GitHub using the GitHub Desktop app.
 
-### Google Drive folder for raw files
-- TBD for public access (WIS)
+### Raw files
+- Were downloaded from https://data.csail.mit.edu/graphics/fivek/
+- initially started using a .DNG file from my Iphone and then noticed there is no Bayer layer info for the image
+
+
+### Bayer layer info
+- 0=Red, 1=Green, 2=Blue, 3=Green
 
 ### working with .DNG files
 Key Structure of a .DNG File (TIFF-based structure)
