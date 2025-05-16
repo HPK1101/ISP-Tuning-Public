@@ -30,7 +30,7 @@ Created the ISP-Tuning repository for:
 
 
 ### Bayer layer info
-- 0=Red, 1=Green, 2=Blue, 3=Green
+- 0=Red, 1=Green, 2=Blue, 3=Green so a [[0 1],  [3 2]] return means it is RGGB Bayer layer
 
 ### working with .DNG files
 Key Structure of a .DNG File (TIFF-based structure)
