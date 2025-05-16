@@ -32,7 +32,7 @@ Key Structure of a .DNG File (TIFF-based structure)
 
 ![image](https://github.com/user-attachments/assets/91fe5b74-1350-41f6-a3ad-6540325df52d)
 <p align="center">
-  <img src="your-image-path.png" width="500"/>
+  <img src="your-image-path.png" width="200"/>
 </p>
 
 
