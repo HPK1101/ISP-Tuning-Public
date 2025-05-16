@@ -29,13 +29,13 @@ Created the ISP-Tuning repository for:
 
 ### working with .DNG files
 Key Structure of a .DNG File (TIFF-based structure)
-TIFF --> Header	Describes byte order, version
-IFD0 --> Basic info: width, height, color layout
-EXIF --> ISO, shutter speed, aperture, timestamp
-CFA Pattern --> 	Tells you the sensor’s Bayer layout (e.g., RGGB)
-ColorMatrix1/2 -->	Used for converting to XYZ or sRGB
-Raw Data --> Sensor pixel values (one color per pixel)
-Thumbnail -->	Quick embedded JPEG for previews
+- TIFF --> Header	Describes byte order, version
+- IFD0 --> Basic info: width, height, color layout
+- EXIF --> ISO, shutter speed, aperture, timestamp
+- CFA Pattern --> 	Tells you the sensor’s Bayer layout (e.g., RGGB)
+- ColorMatrix1/2 -->	Used for converting to XYZ or sRGB
+- Raw Data --> Sensor pixel values (one color per pixel)
+- Thumbnail -->	Quick embedded JPEG for previews
   
 ### License
 - MIT License
