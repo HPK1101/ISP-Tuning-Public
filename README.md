@@ -29,8 +29,11 @@ Created the ISP-Tuning repository for:
 
 ### working with .DNG files
 Key Structure of a .DNG File (TIFF-based structure)
+
 ├── TIFF Header
+
 ├── IFD0 (Main Image File Directory)
+
 │   ├── Camera model, lens, ISO, etc.
 │   ├── Offsets to image data (RAW)
 │   └── Offset to EXIF SubIFD
