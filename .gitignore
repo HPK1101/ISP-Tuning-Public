@@ -1,1 +1,19 @@
+# Ignore RAW image files and large datasets
+datasets/
+*.dng
+*.nef
+*.raw
+*.zip
 
+# Ignore output images 
+results/*
+*.png
+*.jpg
+*.npy
+# !results/
+
+# Ignore temporary files and system folders
+__pycache__/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
