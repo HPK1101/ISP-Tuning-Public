@@ -34,19 +34,19 @@ Key Structure of a .DNG File (TIFF-based structure)
 
 ├── IFD0 (Main Image File Directory)
 
-│   ├── Camera model, lens, ISO, etc.
+│     ├── Camera model, lens, ISO, etc.
 
-│   ├── Offsets to image data (RAW)
+│     ├── Offsets to image data (RAW)
 
-│   └── Offset to EXIF SubIFD
+│     └── Offset to EXIF SubIFD
 
 ├── EXIF SubIFD (Camera metadata)
 
-│   ├── Exposure time
+│      ├── Exposure time
 
-│   ├── ISO, aperture
+│      ├── ISO, aperture
 
-│   └── DateTime, GPS, etc.
+│      └── DateTime, GPS, etc.
 
 ├── MakerNotes (Manufacturer-specific metadata)
 
