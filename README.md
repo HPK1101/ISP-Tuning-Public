@@ -1,11 +1,11 @@
-# ISP-Tuning (Public Version) 
+### ISP-Tuning (Public Version) 
 
 Created the ISP-Tuning repository for:
 - Demonstrate understanding of core ISP blocks
 - Create a modular ISP pipeline to learn how each ISP block works
 - Practice ISP Tuning on raw data 
 
-## Planned ISP block tobe included
+### Planned ISP block to be included
 
 - dead/hot pixel removal
 - Demosaicing
