@@ -30,7 +30,7 @@ Created the ISP-Tuning repository for:
 - Were downloaded from https://data.csail.mit.edu/graphics/fivek/
 - initially started using a .DNG file from my Iphone and then noticed there is no Bayer layer info for the image
 
-#### working with .DNG files
+#### Working with .DNG files
 Key Structure of a .DNG File (TIFF-based structure)
 - TIFF --> Header	Describes byte order, version
 - IFD0 --> Basic info: width, height, color layout
@@ -46,6 +46,6 @@ Key Structure of a .DNG File (TIFF-based structure)
 
 ## Demosiacing
 
-### Bayer layer info
+#### Bayer layer info
 - I used rawpy to access the Bayer layer (there are other methods too)
 - 0=Red, 1=Green, 2=Blue, 3=Green, so the [[0 1],  [3 2]] return means it is RGGB Bayer layer
