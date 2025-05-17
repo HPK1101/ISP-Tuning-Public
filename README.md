@@ -7,7 +7,7 @@ Created the ISP-Tuning repository for:
 - Create a modular ISP pipeline to learn how each ISP block works
 - Practice ISP Tuning on raw data 
 
-### Planned ISP block to be included
+#### Planned ISP block to be included
 
 - dead/hot pixel removal
 - Demosaicing
@@ -22,15 +22,15 @@ Created the ISP-Tuning repository for:
 - 3A - Auto White Balance
 - 3A - Auto-Focus (focus compute)
 - 
-### Scripting and code development Process
+#### Scripting and code development Process
 - For the development process, I use the local folder on Windows to keep the raw files. Installing the GitHub Desktop application seems the easiest way I found.
 - The script development is on Colab and online, then the files will be downloaded locally and pushed to GitHub using the GitHub Desktop app.
 
-### Raw files
+#### Raw files
 - Were downloaded from https://data.csail.mit.edu/graphics/fivek/
 - initially started using a .DNG file from my Iphone and then noticed there is no Bayer layer info for the image
 
-### working with .DNG files
+#### working with .DNG files
 Key Structure of a .DNG File (TIFF-based structure)
 - TIFF --> Header	Describes byte order, version
 - IFD0 --> Basic info: width, height, color layout
@@ -40,7 +40,7 @@ Key Structure of a .DNG File (TIFF-based structure)
 - Raw Data --> Sensor pixel values (one color per pixel)
 - Thumbnail -->	Quick embedded JPEG for previews
   
-### License
+#### License
 - MIT License
 
 
