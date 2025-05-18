@@ -56,11 +56,15 @@ Key Structure of a .DNG File (TIFF-based structure)
   
 ### Manual DPC
 A small sample size was selected, and dead/hot pixels were examined. As it can be seen from the image of the DFC mask, a very small number of pixels were detected as defective. This is a very slow process as it iterates through each pixel via a for loop. 
+
+<p align="center">
 <img src="isp_output/001-DFC-Manula-output.png" alt="Manual Demosaic" width="1000"/>
+</p>
 
 BY looking at the pixel value histogram, it is clear that most of the pixels have values inthe  lower range and only a few pixels are saturated, which is an indicator of possible hot pixels.
-<img src="isp_output/001-DFC-Manula-Histogram-output.png" alt="Manual Demosaic" width="1000"/>
-
+<p align="center">
+<img src="isp_output/001-DFC-Manula-Histogram-output.png" alt="Manual Demosaic" width="500"/>
+</p>
 
 ### Fast DPC
 Here we compare the DFC output using OpenCV 
