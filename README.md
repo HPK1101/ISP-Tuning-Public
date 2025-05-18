@@ -72,7 +72,7 @@ By updating the thresholding to adjust to the median value and pixel value STD, 
 </p>
 
 ### Fast DPC
-Here we compare the DFC output using OpenCV 
+The DFC can be done much faster by using OpenCV, where a median filter is applied to the whole image and then comparing the absolute values of median pixel matrix to absolute values. 
 
 ###########################################################################################################
 ## 001-Demosiacing
