@@ -58,17 +58,17 @@ Key Structure of a .DNG File (TIFF-based structure)
 A small sample size was selected, and dead/hot pixels were examined. As it can be seen from the image of the DFC mask, a very small number of pixels were detected as defective. This is a very slow process as it iterates through each pixel via a for loop. 
 
 <p align="center">
-<img src="isp_output/001-DFC-Manula-output.png" alt="Manual Demosaic" width="1000"/>
+<img src="isp_output/001-DFC-Manual-output.png" alt="Manual Demosaic" width="1000"/>
 </p>
 
 BY looking at the pixel value histogram, it is clear that most of the pixels have values in the  lower range and only a few pixels are saturated, which is an indicator of possible hot pixels. Also, it should be noted that this is for testing the algorithm for defective pixel detection, and selecting the threshold will determine the number of pixels shown as defective.
 <p align="center">
-<img src="isp_output/001-DFC-Manula-Histogram-output.png" alt="Manual Demosaic" width="500"/>
+<img src="isp_output/001-DFC-Manual-Histogram-output.png" alt="Manual Demosaic" width="500"/>
 </p>
 
 By updating the thresholding to adjust to the median value and pixel value STD, the DPC will be more accurate. In here, the histogram of pixel value to the median value is shown, which indicates there is no defective pixel.
 <p align="center">
-<img src="isp_output/001-DFC-Manula-Histogram2-output.png" alt="Manual Demosaic" width="1100"/>
+<img src="isp_output/001-DFC-Manual-Histogram2-output.png" alt="Manual Demosaic" width="1100"/>
 </p>
 
 ### Fast DPC
