@@ -66,7 +66,7 @@ The output for the Bilinear demosaicing kernel compared OpenCV demosaicing and r
 <img src="isp_output/001-Demosaicing-output.png" alt="Manual Demosaic" width="1200"/>
 
 
-## 001-White Balance
+## 002-White Balance
 
 ### Objective
 The objective of this section is to 
