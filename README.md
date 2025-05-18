@@ -45,7 +45,6 @@ Key Structure of a .DNG File (TIFF-based structure)
 
 
 ## Demosiacing
-![Al Text](images/001-Demosaicing-1.png)
 <img src="images/001-Demosaicing-1.png" alt="Manual Demosaic" width="400"/>
 
 #### Bayer layer info
