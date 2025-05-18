@@ -7,7 +7,6 @@ Raw-Data/
 
 # Ignore output images 
 ISP_Output/*
-*.png
 *.jpg
 *.npy
 # !results/
