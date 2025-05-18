@@ -56,7 +56,6 @@ Key Structure of a .DNG File (TIFF-based structure)
   
 ### Manual DPC
 A small sample size was selected, and dead/hot pixels were examined. As it can be seen from the image of the DFC mask, a very small number of pixels were detected as defective. This is a very slow process as it iterates through each pixel via a for loop. 
-001-DFC-Manula-output.png
 <img src="isp_output/001-DFC-Manula-output.png" alt="Manual Demosaic" width="1000"/>
 
 ### Fast DPC
