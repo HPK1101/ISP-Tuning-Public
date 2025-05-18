@@ -68,7 +68,7 @@ BY looking at the pixel value histogram, it is clear that most of the pixels hav
 
 By updating the thresholding to adjust to the median value and pixel value STD, the DPC will be more accurate. In here, the histogram of pixel value to the median value is shown, which indicates there is no defective pixel.
 <p align="center">
-<img src="isp_output/001-DFC-Manula-Histogram2-output.png" alt="Manual Demosaic" width="1200"/>
+<img src="isp_output/001-DFC-Manula-Histogram2-output.png" alt="Manual Demosaic" width="1000"/>
 </p>
 
 ### Fast DPC
