@@ -56,7 +56,7 @@ The objective of this section is to
 The first step in performing demosaicing is to get the Bayer layer info. I used rawpy to access the Bayer layer (there are other methods too). The output returns a 2x2 matrix whose values map to RGB colors: 0=Red, 1=Green, 2=Blue, 3=Green, so the [[0 1],  [3 2]] return in our case means it is RGGB Bayer layer. This is the standard colormapping for Libraw. More details can be found here: https://www.libraw.org/docs/API-overview.html#cfa
 
 
-<img src="images/001-Demosaicing-output.png" alt="Manual Demosaic" width="400"/>
+<img src="images/001-Demosaicing-output.png" alt="Manual Demosaic" width="900"/>
 
 
 
