@@ -61,7 +61,7 @@ A small sample size was selected, and dead/hot pixels were examined. As it can b
 <img src="isp_output/001-DFC-Manula-output.png" alt="Manual Demosaic" width="1000"/>
 </p>
 
-BY looking at the pixel value histogram, it is clear that most of the pixels have values inthe  lower range and only a few pixels are saturated, which is an indicator of possible hot pixels.
+BY looking at the pixel value histogram, it is clear that most of the pixels have values in the  lower range and only a few pixels are saturated, which is an indicator of possible hot pixels. Also, it should be noted that this is for testing the algorithm for defective pixel detection, and selecting the threshold will determine the number of pixels shown as defective.
 <p align="center">
 <img src="isp_output/001-DFC-Manula-Histogram-output.png" alt="Manual Demosaic" width="500"/>
 </p>
