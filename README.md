@@ -44,6 +44,8 @@ Key Structure of a .DNG File (TIFF-based structure)
 - MIT License
 
 ## 001-Demosiacing
+The image used here for practice is downloaded from https://data.csail.mit.edu/graphics/fivek/ and before demosaicing the pixxel values along with the assigned CFA is shown. As it can be seen, it seems the Red pixel has a higher value (brighter color in the plot below), so we expect this part of the image to be a red dominant color. Further in here, we will plot the thumbnail, and it will become clearthat  the image indeed has a strong red color.
+
 <img src="images/001-Demosaicing-1.png" alt="Manual Demosaic" width="400"/>
 
 ### Objective
