@@ -52,11 +52,15 @@ Key Structure of a .DNG File (TIFF-based structure)
 ## 001-Defective Pixel Removal
 ### Objective
 - Manually run through each pixel a small sample of the image and find the pixel with values higher than the median value for the same-color surrounding pixel. WE used Von Neumann neighborhood
-- Run the DFC using OpenCV 
+- Run the DFC using OpenCV
+  
 ### Manual DPC
 A small sample size was selected, and dead/hot pixels were examined. As it can be seen from the image of the DFC mask, a very small number of pixels were detected as defective. This is a very slow process as it iterates through each pixel via a for loop. 
 001-DFC-Manula-output.png
-<img src="isp_output/001-DFC-Manula-output.png" alt="Manual Demosaic" width="700"/>
+<img src="isp_output/001-DFC-Manula-output.png" alt="Manual Demosaic" width="1000"/>
+
+### Fast DPC
+Here we compare the DFC output using OpenCV 
 
 ###########################################################################################################
 ## 001-Demosiacing
