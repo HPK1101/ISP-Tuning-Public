@@ -48,9 +48,9 @@ Key Structure of a .DNG File (TIFF-based structure)
 
 ### Objective
 The objective of this section is to 
-##### - extract the raw image info from .dng file and visualize what each pixel value looks like without color info
-##### - perform a manual demosaicing and compare to the post-processed image already stored in .dng file
-- exploring different demosaicing methods, including 
+- extract the raw image info from .dng file and visualize what each pixel value looks like without color info
+- perform a manual demosaicing and compare to the post-processed image already stored in .dng file
+- exploring different demosaicing methods: bilinear, edge-aware interpolation, Gradient-based demosaicing, deep learning-based demosaicing (e.g., PyTorch, OpenCV DNN)
 
 #### Bayer layer info
 - I used rawpy to access the Bayer layer (there are other methods too)
