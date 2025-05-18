@@ -9,13 +9,13 @@ Created the ISP-Tuning repository for:
 
 #### Planned ISP block to be included
 
-- dead/hot pixel removal
+- Dead/Hot Pixel Removal
 - Black Level Correction
 - Lens Shading Correction
 - White Balance
 - Demosaicing
 - Color Correction Matrix (CCM)
-- Gamma correction
+- Gamma Correction
 - Tone Mapping & HDR Merge 
 - Noise Reduction
 - Edge Enhancement & Sharpening
