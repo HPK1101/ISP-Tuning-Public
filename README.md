@@ -9,7 +9,7 @@ Created the ISP-Tuning repository for:
 
 #### Planned ISP block to be included
 
-- Dead/Hot Pixel Removal
+- Defective Pixel Removal
 - Black Level Correction
 - Lens Shading Correction
 - White Balance
