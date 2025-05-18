@@ -52,6 +52,5 @@ The objective of this section is to
 - perform a manual demosaicing and compare to the post-processed image already stored in .dng file
 - exploring different demosaicing methods: bilinear, edge-aware interpolation, Gradient-based demosaicing, deep learning-based demosaicing (e.g., PyTorch, OpenCV DNN)
 
-#### Bayer layer info
-- I used rawpy to access the Bayer layer (there are other methods too)
-- 0=Red, 1=Green, 2=Blue, 3=Green, so the [[0 1],  [3 2]] return means it is RGGB Bayer layer. This is the standard colormapping for Libraw. More details can be found here: https://www.libraw.org/docs/API-overview.html#cfa
+#### Bayer layer info (rawpy)
+The first step in performing demosaicing is to get the Bayer layer info. I used rawpy to access the Bayer layer (there are other methods too). The output returns a 2x2 matrix whose values map to RGB colors: 0=Red, 1=Green, 2=Blue, 3=Green, so the [[0 1],  [3 2]] return in our case means it is RGGB Bayer layer. This is the standard colormapping for Libraw. More details can be found here: https://www.libraw.org/docs/API-overview.html#cfa
