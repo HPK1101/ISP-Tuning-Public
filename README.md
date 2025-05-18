@@ -84,17 +84,18 @@ The objective of this section is to
 The first step in performing demosaicing is to get the Bayer layer info. I used rawpy to access the Bayer layer (there are other methods too). The output returns a 2x2 matrix whose values map to RGB colors: 0=Red, 1=Green, 2=Blue, 3=Green, so the [[0 1],  [3 2]] return in our case means it is RGGB Bayer layer. This is the standard colormapping for Libraw. More details can be found here: https://www.libraw.org/docs/API-overview.html#cfa
 
 The image used here for practice is downloaded from https://data.csail.mit.edu/graphics/fivek/ and before demosaicing the pixxel values along with the assigned CFA is shown. As it can be seen, it seems the Red pixel has a higher value (brighter color in the plot below), so we expect this part of the image to be a red dominant color. Further in here, we will plot the thumbnail, and it will become clearthat  the image indeed has a strong red color.
-
+<p align="center">
 <img src="images/001-demosaicing-raw.png" alt="Manual Demosaic" width="700"/>
 
 ### Bilinear Demosaicing 
 The output for the Bilinear demosaicing kernel compared OpenCV demosaicing and rawpy demosaicing. The difference in colors is due to auto WB and CCM applied to rawpy, while the other two methods only have demosaicing applied.
-
+<p align="center">
 <img src="isp_output/001-Demosaicing-output.png" alt="Manual Demosaic" width="1200"/>
-
+</p>
 
 ## 002-White Balance
 <img src="images/002-WB.jpg" alt="Manual Demosaic" width="400"/>
+</p>
 
 ### Objective
 The objective of this section is to 
