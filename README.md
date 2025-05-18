@@ -75,7 +75,16 @@ By updating the thresholding to adjust to the median value and pixel value STD, 
 The DFC can be done much faster by using OpenCV, where a median filter is applied to the whole image and then comparing the absolute values of median pixel matrix to absolute values. 
 
 ###########################################################################################################
-## 001-Demosiacing
+## 004-White Balance
+<img src="images/002-WB.jpg" alt="Manual Demosaic" width="400"/>
+</p>
+
+### Objective
+The objective of this section is to 
+- perform WB manually on raw image using the common methods and compare the outcome to OpenCV and rawpy methods
+- summarize the outcome using quantifiable metrics such as RGB histogram
+###########################################################################################################
+## 005-Demosiacing
 
 <img src="images/001-Demosaicing-1.png" alt="Manual Demosaic" width="400"/>
 
@@ -98,14 +107,7 @@ The output for the Bilinear demosaicing kernel compared OpenCV demosaicing and r
 <img src="isp_output/001-Demosaicing-output.png" alt="Manual Demosaic" width="1200"/>
 </p>
 
-## 002-White Balance
-<img src="images/002-WB.jpg" alt="Manual Demosaic" width="400"/>
-</p>
 
-### Objective
-The objective of this section is to 
-- perform WB manually on raw image using the common methods and compare the outcome to OpenCV and rawpy methods
-- summarize the outcome using quantifiable metrics such as RGB histogram
 
 
 
