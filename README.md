@@ -57,7 +57,7 @@ The first step in performing demosaicing is to get the Bayer layer info. I used 
 
 ### Bilinear Demosaicing 
 The out for the Bilinear demosaicing kernel compared OpenCV demosaicing and rawpy demosaicing. The difference in colors is due to auto WB and CCM applied to rawpy vs the other two methods.
-<img src="images/001-Demosaicing-output.png" alt="Manual Demosaic" width="1000"/>
+<img src="images/001-Demosaicing-output.png" alt="Manual Demosaic" width="1200"/>
 
 
 
