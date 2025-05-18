@@ -26,7 +26,7 @@ Created the ISP-Tuning repository for:
 - For the development process, I use the local folder on Windows to keep the raw files. Installing the GitHub Desktop application seems the easiest way I found.
 - The script development is on Colab and online, then the files will be downloaded locally and pushed to GitHub using the GitHub Desktop app.
 
-#### Raw files
+#### Image files
 - Were downloaded from https://data.csail.mit.edu/graphics/fivek/
 - initially started using a .DNG file from my Iphone and then noticed there is no Bayer layer info for the image
 
@@ -54,3 +54,24 @@ The objective of this section is to
 
 #### Bayer layer info (rawpy)
 The first step in performing demosaicing is to get the Bayer layer info. I used rawpy to access the Bayer layer (there are other methods too). The output returns a 2x2 matrix whose values map to RGB colors: 0=Red, 1=Green, 2=Blue, 3=Green, so the [[0 1],  [3 2]] return in our case means it is RGGB Bayer layer. This is the standard colormapping for Libraw. More details can be found here: https://www.libraw.org/docs/API-overview.html#cfa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
