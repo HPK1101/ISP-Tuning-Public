@@ -10,14 +10,18 @@ Created the ISP-Tuning repository for:
 #### Planned ISP block to be included
 
 - dead/hot pixel removal
-- Demosaicing
-- White Balance
-- Color Correction
-- color space conversion
-- Tone Mapping & Gamma correction
-- Noise Reduction
-- Sharpening
+- Black Level Correction
 - Lens Shading Correction
+- White Balance
+- Demosaicing
+- Color Correction Matrix (CCM)
+- Gamma correction
+- Tone Mapping & HDR Merge 
+- Noise Reduction
+- Edge Enhancement & Sharpening
+- Color Space Conversion
+
+Also practice 
 - 3A - Auto Exposure 
 - 3A - Auto White Balance
 - 3A - Auto-Focus (focus compute)
@@ -71,7 +75,7 @@ The output for the Bilinear demosaicing kernel compared OpenCV demosaicing and r
 
 ### Objective
 The objective of this section is to 
-- perform WB manually on raw image and then compare to openCV and rawpy methods
+- perform WB manually on raw image using the common methods and compare the outcome to OpenCV and rawpy methods
 - summarize the outcome using quantifiable metrics such as RGB histogram
 
 
