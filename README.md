@@ -84,7 +84,9 @@ This is similar to subtracting the background noise from any sensor output. Even
 - Typically, the black level is given in metadata (e.g., EXIF, DNG tags) or assumed (e.g., 64 or 512 out of 4096 in 12-bit data).
 
 This is simply subtracting the black level matrix from the image matrix, and is straightforward to implement.
-Corrected_pixel=max(0,Raw_pixel−Black_level)
+
+![Black Level Equation](https://latex.codecogs.com/png.image?\dpi{120}\bg_white\text{Corrected\_pixel}=\max(0,\text{Raw\_pixel}-\text{Black\_level}))
+
 <p align="center">
 <img src="isp_output/002-BLC-uint16-output.png" alt="Manual Demosaic" width="1100"/>
 </p>
