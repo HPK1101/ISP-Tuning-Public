@@ -123,14 +123,14 @@ Lenses are optimized for central sharpness, and so the edge illumination suffers
 <img src="images/RI.JPG" alt="Manual Demosaic" width="600"/>
 </p>
 
-[Relative Illumination, Roll-Off, and Vignetting](https://www.edmundoptics.com/knowledge-center/application-notes/imaging/sensor-relative-illumination-roll-off-and-vignetting/#:~:text=Vignetting%20Within%20the%20Lens%20%2D%20ADVANCED,lens%20performance%20or%20reduce%20cost.)
+[Link: Relative Illumination, Roll-Off, and Vignetting](https://www.edmundoptics.com/knowledge-center/application-notes/imaging/sensor-relative-illumination-roll-off-and-vignetting/#:~:text=Vignetting%20Within%20the%20Lens%20%2D%20ADVANCED,lens%20performance%20or%20reduce%20cost.)
 
 
 - Optical-Microlens Inefficiency (Pixel Vignetting)
 Each pixel on a modern image sensor (CMOS or CCD) is topped with a tiny microlens to focus incoming light onto the photodiode beneath it and improve light collection efficiency (also called fill factor). At oblique angles (edge pixels), light may miss the active area.
 
 <p align="center">
-<img src="images/ML.png" alt="Manual Demosaic" width="400"/>
+<img src="images/MicroLens.png" alt="Manual Demosaic" width="400"/>
 </p>
 
 
