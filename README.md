@@ -107,17 +107,16 @@ Now' lets truncate the data inot a uint8 (0-255 pixel values) and perform the bl
 <img src="isp_output/002-BLC-output.png" alt="Manual Demosaic" width="900"/>
 </p>
 ###########################################################################################################
-
 ## 003-Lens Shading Correction
 
 Lens shading (or vignetting) occurs when image intensity varies across the sensor, typically causing the corners to be darker than the center. This happens due to a combination of optical, mechanical, and sensor-level effects.
 
 Here are the main causes:
-- Optical: Cosine Fourth Law (Natural Vignetting):
+- Optical-Cosine Fourth Law (Natural Vignetting):
 Light falls off as the angle of incidence increases from the optical axis. This is caused by lens geometry and becomes stronger in wide-angle lenses and large format sensors.
 
 
-- Optical: Lens Design Limitations
+- Optical-Lens Design Limitations
 Lenses are optimized for central sharpness, and so the edge illumination suffers. So the lens design and sensor size mismatch will result a lens shading, for example, if the sensor is too large for the lens design.
 
 <p align="center">
@@ -127,8 +126,9 @@ Lenses are optimized for central sharpness, and so the edge illumination suffers
 https://www.edmundoptics.com/knowledge-center/application-notes/imaging/sensor-relative-illumination-roll-off-and-vignetting/#:~:text=Vignetting%20Within%20the%20Lens%20%2D%20ADVANCED,lens%20performance%20or%20reduce%20cost.
 
 
-- Optical: Microlens Inefficiency (Pixel Vignetting)
-Sensor microlenses focus light into the photodiode. At oblique angles (edge pixels), light may miss the active area.
+- Optical-Microlens Inefficiency (Pixel Vignetting)
+Each pixel on a modern image sensor (CMOS or CCD) is topped with a tiny microlens to focus incoming light onto the photodiode beneath it and improve light collection efficiency (also called fill factor). At oblique angles (edge pixels), light may miss the active area.
+
 
 
 
