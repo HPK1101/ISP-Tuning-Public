@@ -132,13 +132,16 @@ $$
 
 ###########################################################################################################
 ## 004-White Balance
-<img src="images/002-WB.jpg" alt="Manual Demosaic" width="400"/>
+<img src="images/002-WB.jpg" alt="Manual Demosaic" width="300"/>
 </p>
 
 ### Objective
 The objective of this section is to 
 - perform WB manually on raw image using the common methods and compare the outcome to OpenCV and rawpy methods
 - summarize the outcome using quantifiable metrics such as RGB histogram
+
+
+
 ###########################################################################################################
 ## 005-Demosiacing
 
