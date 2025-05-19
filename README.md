@@ -119,8 +119,6 @@ Light falls off as the angle of incidence increases from the optical axis. This 
 - Optical-Lens Design Limitations
 Lenses are optimized for central sharpness, and so the edge illumination suffers. So the lens design and sensor size mismatch will result a lens shading, for example, if the sensor is too large for the lens design.
 
-[Image Link: Relative Illumination, Roll-Off, and Vignetting](https://www.edmundoptics.com/knowledge-center/application-notes/imaging/sensor-relative-illumination-roll-off-and-vignetting/#:~:text=Vignetting%20Within%20the%20Lens%20%2D%20ADVANCED,lens%20performance%20or%20reduce%20cost.)
-
 
 - Optical-Microlens Inefficiency (Pixel Vignetting)
 Each pixel on a modern image sensor (CMOS or CCD) is topped with a tiny microlens to focus incoming light onto the photodiode beneath it and improve light collection efficiency (also called fill factor). At oblique angles (edge pixels), light may miss the active area.
