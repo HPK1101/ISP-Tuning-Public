@@ -123,7 +123,7 @@ Light falls off as the angle of incidence increases from the optical axis. This 
 Lenses are optimized for central sharpness, and so the edge illumination suffers. So the lens design and sensor size mismatch will result a lens shading, for example, if the sensor is too large for the lens design.
 
 <p align="center">
-<img src="images/relative-illumination-1.svg" alt="Manual Demosaic" width="1100"/>
+<img src="images/RI.JPG" alt="Manual Demosaic" width="1100"/>
 </p>
 
 https://www.edmundoptics.com/knowledge-center/application-notes/imaging/sensor-relative-illumination-roll-off-and-vignetting/#:~:text=Vignetting%20Within%20the%20Lens%20%2D%20ADVANCED,lens%20performance%20or%20reduce%20cost.
@@ -134,14 +134,7 @@ Sensor microlenses focus light into the photodiode. At oblique angles (edge pixe
 
 
 
-
-
-
-
-
-is skipped in this pipeline due to the lack of calibration data (flat-field gain maps). In production systems, LSC compensates for luminance and chroma vignetting caused by lens and sensor imperfections.
-
-If LSC data becomes available, it can be implemented using:
+Thus step is skipped in this pipeline due to the lack of calibration data (flat-field gain maps). In production systems, LSC compensates for luminance and chroma vignetting caused by lens and sensor imperfections. Having the LSC data, it can be implemented using:
 
 $$
 \text{Corrected}(x, y) = \min\left(\text{Raw}(x, y) \cdot \text{Gain}(x, y),\; \text{WhiteLevel} \right)
