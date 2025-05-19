@@ -106,6 +106,7 @@ Now' lets truncate the data inot a uint8 (0-255 pixel values) and perform the bl
 <p align="center">
 <img src="isp_output/002-BLC-output.png" alt="Manual Demosaic" width="900"/>
 </p>
+
 ###########################################################################################################
 ## 003-Lens Shading Correction
 
