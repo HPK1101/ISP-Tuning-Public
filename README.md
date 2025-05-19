@@ -86,7 +86,7 @@ This is similar to subtracting the background noise from any sensor output. Even
 This is simply subtracting the black level matrix from the image matrix, and is straightforward to implement.
 
 <p align="center">
-<img src="isp_output/002-BLC-Hist-output.png" alt="Manual Demosaic" width="1100"/>
+<img src="isp_output/002-BLC-Hist-output.png" alt="Manual Demosaic" width="600"/>
 </p>
 
 There are different methods to extract the black level from the file, including:
@@ -123,7 +123,7 @@ Light falls off as the angle of incidence increases from the optical axis. This 
 Lenses are optimized for central sharpness, and so the edge illumination suffers. So the lens design and sensor size mismatch will result a lens shading, for example, if the sensor is too large for the lens design.
 
 <p align="center">
-<img src="images/RI.JPG" alt="Manual Demosaic" width="1100"/>
+<img src="images/RI.JPG" alt="Manual Demosaic" width="600"/>
 </p>
 
 https://www.edmundoptics.com/knowledge-center/application-notes/imaging/sensor-relative-illumination-roll-off-and-vignetting/#:~:text=Vignetting%20Within%20the%20Lens%20%2D%20ADVANCED,lens%20performance%20or%20reduce%20cost.
