@@ -133,6 +133,7 @@ Each pixel on a modern image sensor (CMOS or CCD) is topped with a tiny microlen
 <img src="images/MicroLens.png" alt="Manual Demosaic" width="230"/>
 </p>
 [Image Link](https://www.1stvision.com/cameras/IDS/IDS-manuals/uEye_Manual/hw_fuellfaktor.html)
+![Fill Factor Diagram](https://www.1stvision.com/cameras/IDS/IDS-manuals/uEye_Manual/images/hw_fuellfaktor.png)
 
 Thus step is skipped in this pipeline due to the lack of calibration data (flat-field gain maps). In production systems, LSC compensates for luminance and chroma vignetting caused by lens and sensor imperfections. Having the LSC data, it can be implemented using:
 
