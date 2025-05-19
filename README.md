@@ -119,10 +119,6 @@ Light falls off as the angle of incidence increases from the optical axis. This 
 - Optical-Lens Design Limitations
 Lenses are optimized for central sharpness, and so the edge illumination suffers. So the lens design and sensor size mismatch will result a lens shading, for example, if the sensor is too large for the lens design.
 
-<p align="center">
-<img src="images/RI.JPG" alt="Manual Demosaic" width="600"/>
-</p>
-
 [Image Link: Relative Illumination, Roll-Off, and Vignetting](https://www.edmundoptics.com/knowledge-center/application-notes/imaging/sensor-relative-illumination-roll-off-and-vignetting/#:~:text=Vignetting%20Within%20the%20Lens%20%2D%20ADVANCED,lens%20performance%20or%20reduce%20cost.)
 
 
@@ -132,7 +128,7 @@ Each pixel on a modern image sensor (CMOS or CCD) is topped with a tiny microlen
 <p align="center">
 <img src="images/MicroLens.png" alt="Manual Demosaic" width="230"/>
 </p>
-[Image Link](https://www.1stvision.com/cameras/IDS/IDS-manuals/uEye_Manual/hw_fuellfaktor.html)
+
 ![Fill Factor Diagram](https://www.1stvision.com/cameras/IDS/IDS-manuals/uEye_Manual/images/hw_fuellfaktor.png)
 
 Thus step is skipped in this pipeline due to the lack of calibration data (flat-field gain maps). In production systems, LSC compensates for luminance and chroma vignetting caused by lens and sensor imperfections. Having the LSC data, it can be implemented using:
