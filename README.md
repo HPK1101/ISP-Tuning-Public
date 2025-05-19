@@ -90,7 +90,14 @@ There are different methods to extract the black level from the file, including:
 - pyexiv2
 - piexif
 
-  The output of Black Level Correction here shows a significant improvement, as the black level was high. The values were Black Level per channel: [127, 128, 127, 127] for a uint8 image (0 to 255 pixel values).
+  The output of Black Level Correction here does not show a significant improvement, as the black levels were small. The values were Black Level per channel: [127, 128, 127, 127] for a bit depth =12 (0 to 4095 pixel values). By using a uint16 datatype and subtracting the black level, no visual improvement can be seen.
+
+
+<p align="center">
+<img src="isp_output/002-BLC-uint16-output.png" alt="Manual Demosaic" width="1100"/>
+</p>
+
+Now' lets truncate the data inot a uint8 (0-255 pixel values) and perform the black level correction. The output of Black Level Correction here shows a significant improvement, as the black level was high. The values were Black Level per channel: [127, 128, 127, 127] for a uint8 image (0 to 255 pixel values).
 
 
 <p align="center">
