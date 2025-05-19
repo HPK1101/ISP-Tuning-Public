@@ -94,7 +94,7 @@ There are different methods to extract the black level from the file, including:
 
 
 <p align="center">
-<img src="isp_output/002-BLC-output.png.png" alt="Manual Demosaic" width="1100"/>
+<img src="isp_output/002-BLC-output.png" alt="Manual Demosaic" width="1100"/>
 </p>
 ###########################################################################################################
 
