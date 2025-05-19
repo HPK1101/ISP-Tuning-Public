@@ -85,8 +85,6 @@ This is similar to subtracting the background noise from any sensor output. Even
 
 This is simply subtracting the black level matrix from the image matrix, and is straightforward to implement.
 
-![Black Level Equation](https://latex.codecogs.com/png.image?\dpi{120}\bg_white \text{Corrected pixel} = \max(0, \text{Raw pixel} - \text{Black level}))
-
 <p align="center">
 <img src="isp_output/002-BLC-Hist-output.png" alt="Manual Demosaic" width="1100"/>
 </p>
