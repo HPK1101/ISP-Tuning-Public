@@ -85,7 +85,17 @@ This is similar to subtracting the background noise from any sensor output. Even
 This is simply subtracting the black level matrix from the image matrix, and is straightforward to implement.
 
 There are different methods to extract the black level from the file, including:
-- rawpy
+- rawpy ==> rawpy.RawPy.black_level_per_channel
+- exiftool ==> exiftool your_image.dng | grep -i black
+- pyexiv2
+- piexif
+
+  The output of Black Level Correction here shows a significant improvement, as the black level was high. The values were Black Level per channel: [127, 128, 127, 127] for a uint8 image (0 to 255 pixel values).
+
+
+<p align="center">
+<img src="isp_output/002-BLC-output.png.png" alt="Manual Demosaic" width="1100"/>
+</p>
 ###########################################################################################################
 
 ## 003-Lens Shading Correction
