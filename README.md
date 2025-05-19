@@ -88,7 +88,7 @@ This is simply subtracting the black level matrix from the image matrix, and is 
 ![Black Level Equation](https://latex.codecogs.com/png.image?\dpi{120}\bg_white\text{Corrected\_pixel}=\max(0,\text{Raw\_pixel}-\text{Black\_level}))
 
 <p align="center">
-<img src="isp_output/002-BLC-uint16-output.png" alt="Manual Demosaic" width="1100"/>
+<img src="isp_output/002-BLC-Hist-output.png" alt="Manual Demosaic" width="1100"/>
 </p>
 
 There are different methods to extract the black level from the file, including:
