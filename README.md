@@ -76,7 +76,7 @@ The DFC can be done much faster by using OpenCV, where a median filter is applie
 
 ###########################################################################################################
 
-## 001-Black Level Correction
+## 002-Black Level Correction
 This is similar to subtracting the background noise from any sensor output. Even without any signal, a sensor will produce a (noise) signal, which can be due to electronics, shot noise, etc. The same concept applies to CMOS and CCD sensors. Black Level Correction is the process of subtracting a fixed value (the "black level") from raw sensor data to normalize pixel values, removing the sensor's electrical bias or dark current.
 
 - For Bayer raw images, the black level is often different per channel or per row/column.
@@ -84,7 +84,11 @@ This is similar to subtracting the background noise from any sensor output. Even
 
 This is simply subtracting the black level matrix from the image matrix, and is straightforward to implement.
 
+There are different methods to extract the black level from the file, including:
+- rawpy
+###########################################################################################################
 
+## 003-Lens Shading Correction
 
 
 ###########################################################################################################
