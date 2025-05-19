@@ -48,7 +48,6 @@ Key Structure of a .DNG File (TIFF-based structure)
 - MIT License
 
 ###########################################################################################################
-
 ## 001-Defective Pixel Removal
 ### Objective
 - Manually run through each pixel a small sample of the image and find the pixel with values higher than the median value for the same-color surrounding pixel. WE used Von Neumann neighborhood
@@ -75,7 +74,6 @@ By updating the thresholding to adjust to the median value and pixel value STD, 
 The DFC can be done much faster by using OpenCV, where a median filter is applied to the whole image and then comparing the absolute values of median pixel matrix to absolute values. 
 
 ###########################################################################################################
-
 ## 002-Black Level Correction
 This is similar to subtracting the background noise from any sensor output. Even without any signal, a sensor will produce a (noise) signal, which can be due to electronics, shot noise, etc. The same concept applies to CMOS and CCD sensors. Black Level Correction is the process of subtracting a fixed value (the "black level") from raw sensor data to normalize pixel values, removing the sensor's electrical bias or dark current.
 
@@ -99,14 +97,14 @@ There are different methods to extract the black level from the file, including:
 
 
 <p align="center">
-<img src="isp_output/002-BLC-uint16-output.png" alt="Manual Demosaic" width="1100"/>
+<img src="isp_output/002-BLC-uint16-output.png" alt="Manual Demosaic" width="900"/>
 </p>
 
 Now' lets truncate the data inot a uint8 (0-255 pixel values) and perform the black level correction. The output of Black Level Correction here shows a significant improvement, as the black level was high. The values were Black Level per channel: [127, 128, 127, 127] for a uint8 image (0 to 255 pixel values).
 
 
 <p align="center">
-<img src="isp_output/002-BLC-output.png" alt="Manual Demosaic" width="1100"/>
+<img src="isp_output/002-BLC-output.png" alt="Manual Demosaic" width="900"/>
 </p>
 ###########################################################################################################
 
