@@ -167,8 +167,8 @@ The output for the Bilinear demosaicing kernel compared OpenCV demosaicing and r
 </p>
 
 
-
-
+###########################################################################################################
+## 006-Color Correction
 
 
 
