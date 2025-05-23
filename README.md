@@ -40,7 +40,7 @@ Key Structure of a .DNG File (TIFF-based structure)
 - IFD0 --> Basic info: width, height, color layout
 - EXIF --> ISO, shutter speed, aperture, timestamp
 - CFA Pattern --> 	Tells you the sensor’s Bayer layout (e.g., RGGB)
-- ColorMatrix1/2 -->	Used for converting to XYZ or sRGB
+- ColorMatrix -->	Used for converting to XYZ or sRGB
 - Raw Data --> Sensor pixel values (one color per pixel)
 - Thumbnail -->	Quick embedded JPEG for previews
   
