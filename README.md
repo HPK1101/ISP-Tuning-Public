@@ -1,5 +1,8 @@
 # ISP-Tuning (Public Version) 
 
+## Disclaimer  
+This repository is intended solely for educational and non-commercial research purposes. 
+
 ## Intro 
 
 Created the ISP-Tuning repository for:
